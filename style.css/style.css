@@ -1,3 +1,8 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
 .img {
     width: 100px;
 }
@@ -16,4 +21,53 @@ nav a {
 }
 nav a:hover {
     text-decoration: underline;
+}
+main {
+    background-color: #ffff;
+    color: #000;
+}
+
+.welcome {
+    padding: 20px; /* hacemos un espacio alrededor de 20 px alrededor del contenido*/
+    background-color: darkblue; /*color del fondo del DIV*/
+    text-align: center;/*alineamos el texto al centro*/
+    color: white;/*colocamos color blanco al texto*/
+
+}
+.courses {
+    padding: 30px;
+}
+p {
+    font-size: 18px; /* Aumenta el tamaño de la letra a 18px*/
+    line-height: 1.4; /*Aumenta el espacio entre lineas a 1.4 punntos*/
+}
+.welcome h1, .courses h2 {
+    color: #005A9C;
+}
+.infocurso img {
+    width: 225px; /* ancho y altura de la imagen*/
+    float: left; /*colocamos la imagen a la izquierda*/
+    margin-right: 30px; /* hacemos un pequeño espacio a la derecha de las imagenes*/
+}
+.infocurso {
+    overflow: auto; /*Hace que la imagen no se dalga del DIV, sino que este se ajuste a la imagen*/
+    margin-bottom: 30px; /*hace un espacio abajo del DIV de cada curso*/
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: lightgray;
+}
+.imagen {
+    width: 600px;
+    border: 2px solid black;
+}
+.hola {
+    width: 225px;
+    float: left;
+    margin-right: 30px;
+}
+.comienzo {
+    overflow: auto;
+    margin-bottom: 30px;
 }
